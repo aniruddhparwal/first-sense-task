@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #dde1e7;
+}
+
+.signInComponent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  background-color: #dde1e7;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  border-radius: 20px;
+  -webkit-box-shadow: -3px -3px 10px 2px rgba(255, 255, 255, 0.8), 3px 3px 10px 0px rgba(0, 0, 0, 0.8);
+          box-shadow: -3px -3px 10px 2px rgba(255, 255, 255, 0.8), 3px 3px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+.signInComponent button {
+  width: 30%;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  background-color: #dde1e7;
+  -webkit-box-shadow: -3px -3px 10px 2px rgba(255, 255, 255, 0.8), 3px 3px 10px 0px rgba(0, 0, 0, 0.8);
+          box-shadow: -3px -3px 10px 2px rgba(255, 255, 255, 0.8), 3px 3px 10px 0px rgba(0, 0, 0, 0.8);
+  margin: 10px;
+}
+
+.signInComponent button:active {
+  -webkit-box-shadow: 2px 3px 9px -5px rgba(0, 0, 0, 0.8) inset, -2px -7px 10px 0px rgba(255, 255, 255, 0.8) inset;
+          box-shadow: 2px 3px 9px -5px rgba(0, 0, 0, 0.8) inset, -2px -7px 10px 0px rgba(255, 255, 255, 0.8) inset;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+
+.signIn__Input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  background-color: transparent;
+  -webkit-box-shadow: 2px 3px 9px -5px rgba(0, 0, 0, 0.8) inset, -2px -7px 10px 0px rgba(255, 255, 255, 0.8) inset;
+          box-shadow: 2px 3px 9px -5px rgba(0, 0, 0, 0.8) inset, -2px -7px 10px 0px rgba(255, 255, 255, 0.8) inset;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.signIn__Input .MuiSvgIcon-root {
+  color: grey;
+}
+
+.signIn__Input input {
+  background-color: transparent;
+  border: none;
+  padding-left: 15px;
+  width: 75%;
+  font-size: 1rem;
+}
+
+.signIn__Input input:focus {
+  outline: none;
+}
+
+.dashboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashboard__Menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.dashboard__Menu--buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10vw;
+  width: 10vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  border: none;
+  background-color: #dde1e7;
+  -webkit-box-shadow: -3px -3px 10px 2px rgba(255, 255, 255, 0.8), 3px 3px 10px 0px rgba(0, 0, 0, 0.8);
+          box-shadow: -3px -3px 10px 2px rgba(255, 255, 255, 0.8), 3px 3px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+.dashboard__Menu--buttons .MuiSvgIcon-root {
+  color: grey;
+}
+
+.dashboard__Menu--buttons:active {
+  -webkit-box-shadow: 2px 3px 9px -5px rgba(0, 0, 0, 0.8) inset, -2px -7px 10px 0px rgba(255, 255, 255, 0.8) inset;
+          box-shadow: 2px 3px 9px -5px rgba(0, 0, 0, 0.8) inset, -2px -7px 10px 0px rgba(255, 255, 255, 0.8) inset;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+/*# sourceMappingURL=style.css.map */
