@@ -3,7 +3,7 @@ import React from 'react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-function SignIn({ signup }) {
+function SignUp({ signup }) {
     const [isVisible, setIsVisible] = useState(false)
     const handleVisibility = () => {
         console.log("visible");
@@ -11,7 +11,7 @@ function SignIn({ signup }) {
     }
     return (
         <div className="signInComponent">
-            <h1>Login Form</h1>
+            <h1>SignUp Form</h1>
             <div className="signIn__Input"><Person /><input type="text" placeholder="Username"></input></div>
             <div className="signIn__Input"><Lock /><input type={!isVisible ? "password" : "text"} placeholder="Password"></input>{isVisible ? <Visibility onClick={() => handleVisibility()} /> : <VisibilityOff onClick={() => handleVisibility()} />}</div>
             {/* <button type="submit">Submit</button> */}
@@ -25,4 +25,4 @@ function SignIn({ signup }) {
     )
 }
 
-export default SignIn
+export default SignUp

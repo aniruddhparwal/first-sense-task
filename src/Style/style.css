@@ -28,7 +28,7 @@ body {
 }
 
 .signInComponent button {
-  width: 30%;
+  padding: 0px 20px;
   height: 35px;
   border-radius: 20px;
   border: none;
@@ -125,5 +125,10 @@ body {
           box-shadow: 2px 3px 9px -5px rgba(0, 0, 0, 0.8) inset, -2px -7px 10px 0px rgba(255, 255, 255, 0.8) inset;
   -webkit-transform: translateY(4px);
           transform: translateY(4px);
+}
+
+.video-wrapper > div {
+  height: auto !important;
+  width: auto !important;
 }
 /*# sourceMappingURL=style.css.map */

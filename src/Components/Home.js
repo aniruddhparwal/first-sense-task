@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ReactCardFlip from 'react-card-flip'
 import SignIn from './SignIn';
+import SignUp from './SignUp';
 
 function Home() {
     const [isFilpped, setIsFlipped] = useState(false)
@@ -15,11 +16,7 @@ function Home() {
                     <SignIn signup={changeForm} />
                 </div>
                 <div className="signUp">
-                    {/* <button value="submit" text="submit" onClick={() => changeForm()}></button>
-
-                    SignUp */}
-                    <SignIn signup={changeForm} />
-
+                    <SignUp signup={changeForm} />
                 </div>
             </ReactCardFlip>
         </div>
